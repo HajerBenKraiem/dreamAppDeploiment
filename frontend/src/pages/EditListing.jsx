@@ -221,7 +221,7 @@ const EditListing = () => {
               ))}
             </div>
 
-            <h3>Where's your hotel located?</h3>
+            <h3>Where's your place located?</h3>
             <div className="full">
               <div className="location">
                 <p>Address</p>
@@ -238,7 +238,7 @@ const EditListing = () => {
 
             <div className="half">
               <div className="location">
-                <p>Apartment, Suite, etc. (if applicable)</p>
+                <p>Apartment, Suite,hotel, etc. (if applicable)</p>
                 <input
                   type="text"
                   placeholder="Apt, Suite, etc. (if applicable)"
@@ -399,7 +399,7 @@ const EditListing = () => {
           </div>
 
           <div className="create-listing_step2">
-            <h2>Step 2: Make your hotel stand out</h2>
+            <h2>Step 2: Make your hot stand out</h2>
             <hr />
 
             <h3>Tell guests what your destination has to offer</h3>
@@ -516,7 +516,7 @@ const EditListing = () => {
                 required
               />
               <p>Now, set your PRICE</p>
-              <span>$</span>
+              <span>TND</span>
               <input
                 type="number"
                 placeholder="100"

@@ -252,7 +252,7 @@ const ListingDetails = () => {
               <h2>{listing.price} + 10% agency fees</h2>
 
               <h2>
-                Total price: ${listing.price * dayCount + listing.price * 0.1}
+                Total price: TND{listing.price * dayCount + listing.price * 0.1}
               </h2>
               <p>Start Date: {dateRange[0].startDate.toDateString()}</p>
               <p>End Date: {dateRange[0].endDate.toDateString()}</p>
@@ -264,7 +264,7 @@ const ListingDetails = () => {
               
               <button className="button" type="submit" 
              onClick={handlePaySubmit}
-             >  Validate and Pay    
+             >  Validate and Pay Now    
             
               </button>
 

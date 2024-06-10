@@ -116,7 +116,7 @@ const ListingCardOwner = ({
           <p>{type}</p>
           <div className="d-flex justify-content-between">
             <p>
-              <span>${price}</span> per night
+              <span>TND{price}</span> per night
             </p>
             <button className="btn btn-primary btn-icon" style={{ padding: "5px 20px 5px 20px", width: "100px" }}
 
@@ -162,7 +162,7 @@ const ListingCardOwner = ({
           </p>
           <div className="d-flex justify-content-between">
             <p>
-              <span>${totalPrice}</span> total
+              <span>TND{totalPrice}</span> total
             </p>
             <button className="booking">Booking</button>
           </div>

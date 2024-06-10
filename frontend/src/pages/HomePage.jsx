@@ -16,6 +16,7 @@ const HomePage = () => {
       <Slide />
       <Weather />
       <Categories />
+     
       <Listings />
     
       <Footer />

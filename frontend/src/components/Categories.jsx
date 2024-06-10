@@ -10,7 +10,7 @@ const Categories = () => {
         <Link to="/bestdestinations">Best Destinations in the world</Link>
       </h1>
       <p>
-        Discover our wide selection of hotels, carefully chosen to meet the
+        Discover our wide selection of place, carefully chosen to meet the
         needs of all travelers. Immerse yourself in the local atmosphere, enjoy
         the comfort of a home away from home, and create unforgettable memories
         in your dream destination.

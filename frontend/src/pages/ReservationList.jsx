@@ -40,7 +40,8 @@ const ReservationList = () => {
   ) : (
     <>
       <Navbar />
-      <h1 className="title-list">Your Reservation List</h1>
+      <h1 className="title-list">Your Reservation List </h1>
+      <h2 className="title-list"> your host is already booked at: </h2>
       <div className="list">
         {reservationList?.map(
           ({

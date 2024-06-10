@@ -1,10 +1,8 @@
-@import "./variables.scss";
-@import "./breakpoints.scss";
+.map-form-container {
+  margin-bottom: 20px; /* Ajoute de l'espace en bas du conteneur */
+}
 
-
-
-.map-container {
-    height: 400px; /* Hauteur de la carte */
-    width: 100%; /* Largeur de la carte */
-  }
-  
+.small-map {
+  height: 20px; /* Ajustez la hauteur selon vos besoins */
+  width: 10%;
+}
