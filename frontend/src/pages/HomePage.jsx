@@ -14,14 +14,18 @@ const HomePage = () => {
       <Navbar />
     
       <Slide />
-      <Weather />
-      <MapComponent/>
+      
+      
       <Categories />
+      <MapComponent/>
+      <Weather />
       <Listings />
     
       <Footer />
     </>
   )
+
+
 }
 
 export default HomePage
