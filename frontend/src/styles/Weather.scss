@@ -1,21 +1,8 @@
-@import "../styles/variables.scss";
-@import "../styles/breakpoints.scss";
-
-
 .weather-container {
-
     padding: 20px;
     background-color: #f0f0f0;
     border-radius: 8px;
     margin: 20px 0;
-
-    h1 {
-      color: $blue;
-      font-size: 40px;
-      font-weight: 800;
-      margin-bottom: 15px;
-      text-align: center;
-    }
   
     h2 {
       text-align: center;

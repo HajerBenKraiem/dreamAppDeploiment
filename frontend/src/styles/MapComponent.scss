@@ -1,32 +1,10 @@
-@import "../styles/variables.scss";
-@import "../styles/breakpoints.scss";
+@import "./variables.scss";
+@import "./breakpoints.scss";
 
-.map-form-container {
-  margin-bottom: 200px; /* Ajoute de l'espace en bas du conteneur */
-}
 
-.small-map {
-  height: 200px; /* Ajustez la hauteur selon vos besoins */
-  width: 100%;
-}
 
-.iframe {
-  height: 150px;
-  width: 100%; /* Utilisation de 100% pour s'assurer qu'il s'adapte correctement */
-}
-
-h1 {
-  color: $blue;
-  font-size: 40px;
-  font-weight: 800;
-  margin-bottom: 15px;
-  text-align: center;
-}
-
-p {
-  color: $blue;
-  font-size: 40px;
-  font-weight: 800;
-  margin-bottom: 15px;
-  text-align: center;
-}
+.map-container {
+    height: 400px; /* Hauteur de la carte */
+    width: 100%; /* Largeur de la carte */
+  }
+  
