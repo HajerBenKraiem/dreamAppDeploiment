@@ -1,8 +1,12 @@
 .map-form-container {
-  margin-bottom: 20px; /* Ajoute de l'espace en bas du conteneur */
+  margin-bottom: 200px; /* Ajoute de l'espace en bas du conteneur */
 }
 
 .small-map {
-  height: 20px; /* Ajustez la hauteur selon vos besoins */
-  width: 10%;
+  height: 200px; /* Ajustez la hauteur selon vos besoins */
+  width: 100%;
+}
+.iframe {
+  height: 150px;
+  width: 1000%;
 }

@@ -15,8 +15,8 @@ const HomePage = () => {
     
       <Slide />
       <Weather />
+      <MapComponent/>
       <Categories />
-     
       <Listings />
     
       <Footer />

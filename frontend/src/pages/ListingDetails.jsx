@@ -219,6 +219,8 @@ const ListingDetails = () => {
           <Reviews propertyId={listingId} />
           </div>
           </div>
+
+          
           
 
           <div>
