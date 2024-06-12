@@ -1,7 +1,7 @@
 import "../styles/List.scss";
 import { useDispatch, useSelector } from "react-redux";
 import Navbar from "../components/Navbar";
-import ListingCardOwner from "../components/ListingCardOwner";
+//import ListingCardOwner from "../components/ListingCardOwner";
 import { useEffect, useState } from "react";
 import { setMyFlightsList } from "../redux/state";
 import Loader from "../components/Loader";
@@ -36,7 +36,7 @@ const MyFlightsList = () => {
   return loading ? <Loader /> : (
     <>
       <Navbar />
-      <h1 className="title-list">Available Flights</h1>
+      <h1 className="title-list">My FlightsList</h1>
       <div className="list">
         {MyFlightsList?.map(
           ({

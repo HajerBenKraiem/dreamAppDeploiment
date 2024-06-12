@@ -1,10 +1,40 @@
 @import "./variables.scss";
 @import "./breakpoints.scss";
 
+.map-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa; // Light gray background
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
-
-.map-container {
-    height: 400px; /* Hauteur de la carte */
-    width: 100%; /* Largeur de la carte */
+  .map-description {
+    color: $blue; // Assumes $blue is defined in your variables.scss
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
   }
-  
+
+  .embedded-map {
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  @include media-breakpoint-up(md) {
+    .embedded-map {
+      width: 1000px;
+      height: 500px;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    .embedded-map {
+      width: 1300px;
+      height: 600px;
+    }
+  }
+}

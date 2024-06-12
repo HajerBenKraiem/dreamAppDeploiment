@@ -1,5 +1,5 @@
 import React from "react";
-import MapComponent from '../components/MapComponent';
+//import MapComponent from '../components/MapComponent';
 
 const BestDestinations = () => {
   return (
@@ -7,7 +7,7 @@ const BestDestinations = () => {
 
     <div>
 
-<MapComponent/>
+{/* <MapComponent/> */}
       <h1>Best Destinations In The World</h1>
       <div className="destination">
         {/* <img src="/assets/destinations/dest1.jpg" alt="Rome" /> */}

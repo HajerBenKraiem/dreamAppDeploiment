@@ -42,3 +42,21 @@ $breakpoints: (
         @content;
     }
 };
+$breakpoints: (
+  "sm": 480px,
+  "mm": 580px,
+  "md": 720px,
+  "ml": 820px,
+  "lg": 1000px,
+  "xl": 1120px
+);
+
+@mixin media-breakpoint-up($name) {
+  $min-width: map-get($breakpoints, $name);
+
+  @if $min-width {
+    @media (min-width: $min-width) {
+      @content;
+    }
+  }
+}

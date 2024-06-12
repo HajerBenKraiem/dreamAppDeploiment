@@ -42,7 +42,7 @@ const FlightsList = () => {
     ) : (
         <>
             <Navbar />
-            <h1 className="title-list">Your Trip List</h1>
+            <h1 className="title-list">Book flight </h1>
             <div className="list">
                 {FlightsList?.map(
                     ({

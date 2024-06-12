@@ -7,7 +7,7 @@ const Categories = () => {
     <div className="categories">
       
       <h1>
-        <Link to="/bestdestinations">Best Destinations in the world</Link>
+        Best Destinations in the world
       </h1>
       <p>
         Discover our wide selection of place, carefully chosen to meet the
