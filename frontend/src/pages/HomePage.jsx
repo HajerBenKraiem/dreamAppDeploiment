@@ -18,8 +18,9 @@ const HomePage = () => {
       
       <Categories />
       <MapComponent/>
-      <Weather />
+     
       <Listings />
+      {/* <Weather /> */}
     
       <Footer />
     </>

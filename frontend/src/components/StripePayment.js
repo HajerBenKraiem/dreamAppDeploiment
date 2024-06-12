@@ -5,6 +5,7 @@ import axios from 'axios';
 import Swal from 'sweetalert2';
 import withReactContent from 'sweetalert2-react-content';
 import { useNavigate, useParams } from "react-router-dom";
+import '../styles/StripePayment.scss';
 
 const MySwal = withReactContent(Swal);
 

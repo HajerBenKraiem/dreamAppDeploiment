@@ -1,0 +1,56 @@
+@import "./variables.scss";
+@import "./breakpoints.scss";
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ajustez la hauteur selon vos besoins */
+  background-color: $lightgrey; /* Utilisation de la variable définie dans variables.scss */
+}
+
+.products {
+  width: 100%;
+  max-width: 600px; /* Ajustez la largeur maximale selon vos besoins */
+  padding: 20px;
+  background-color: rgb(241, 227, 227);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  .product {
+    padding: 20px;
+    border: 1px solid $grey; /* Utilisation de la variable définie dans variables.scss */
+    border-radius: 8px;
+
+    h2 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .StripeCheckout {
+      margin-top: 20px;
+
+      button {
+        background-color:rgb(235, 95, 95); /* Utilisation de la variable définie dans variables.scss */
+        color: rgb(235, 95, 95);
+        border: none;
+        padding: 12px 24px;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+          background-color: darken($pinkred, 10%); /* Fonction Sass pour assombrir la couleur */
+        }
+      }
+    }
+  }
+}
