@@ -77,10 +77,13 @@ const ListingCard = ({
         >
           {listingPhotoPaths?.map((photo, index) => (
             <div key={index} className="slide">
-              <img
+
+<img src={`http://localhost:3001/${photo?.replace("public", "")}`} alt={`photo ${index + 1}`} />
+
+              {/* <img
                 src={`http://localhost:3001/${photo?.replace("public", "")}`}
                 alt={`photo ${index + 1}`}
-              />
+              /> */}
               <div
                 className="prev-button"
                 onClick={(e) => {

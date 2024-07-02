@@ -14,13 +14,13 @@ const HomePage = () => {
       <Navbar />
     
       <Slide />
-      
-      
-      <Categories />
+      <Weather />
       <MapComponent/>
+      <Categories />
+     
      
       <Listings />
-      {/* <Weather /> */}
+     
     
       <Footer />
     </>

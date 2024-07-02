@@ -36,7 +36,7 @@ const MyFlightsList = () => {
   return loading ? <Loader /> : (
     <>
       <Navbar />
-      <h1 className="title-list">My FlightsList</h1>
+      <h1 className="title-list">My Flights List</h1>
       <div className="list">
         {MyFlightsList?.map(
           ({

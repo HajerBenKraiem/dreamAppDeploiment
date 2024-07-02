@@ -200,7 +200,7 @@ const CreateListing = () => {
 
             <div className="half">
               <div className="location">
-                <p>Apartment, Suite, etc. (if applicable)</p>
+                <p>Apartment, Suite, hotel,etc. (if applicable)</p>
                 <input
                   type="text"
                   placeholder="Apt, Suite, etc. (if applicable)"
@@ -361,7 +361,7 @@ const CreateListing = () => {
           </div>
 
           <div className="create-listing_step2">
-            <h2>Step 2: Make your hotel stand out</h2>
+            <h2>Step 2: Make your holiday stand out</h2>
             <hr />
 
             <h3>Tell guests what your destination has to offer</h3>

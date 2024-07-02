@@ -12,8 +12,20 @@ const paymentRouter = require( "./routes/payment.js")
 const flightRoutes = require("./routes/Flight.js")
 const reviewRoutes = require("./routes/review.js")
 
-app.use(cors());
+app.use(cors({
+    origin: '*', // Vous pouvez spécifier un domaine spécifique ici au lieu de '*'
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    allowedHeaders: ['Content-Type', 'Authorization']
+  }));
+  
+  // Routes et autres middlewares ici
+  app.use('/public', express.static('public')); // Assurez-vous que le répertoire 'public' est accessible
+  
+
+
 app.use(express.json());
+//app.use(express.static('public'));
+
 app.use(express.static("public"));
 app.use('/api/payment', paymentRouter); 
 
@@ -25,6 +37,14 @@ app.use("/bookings", bookingRoutes)
 app.use("/users", userRoutes)
 app.use("/flights", flightRoutes)
 app.use("/reviews", reviewRoutes)
+
+
+  // Assuming a third-party analytics script
+  app.use((req, res, next) => {
+    res.cookie('thirdPartyCookie', 'value', { domain: '.third-party.com' });
+    next();
+  });
+  
 
 
 /* MONGOOSE SETUP */
